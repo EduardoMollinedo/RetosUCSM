@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "864965473843",
+    "firebase_url": "https://catolica-536a4-default-rtdb.firebaseio.com",
+    "project_id": "catolica-536a4",
+    "storage_bucket": "catolica-536a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864965473843:android:d5c99df5c8abdf383cd546",
+        "android_client_info": {
+          "package_name": "com.example.retosucsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864965473843-gcd69vo06qma79pv0u8m14qh9pbulsgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTtGC_H5zEd-xybT7uH6Qu5TbXC4Ix6lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864965473843-gcd69vo06qma79pv0u8m14qh9pbulsgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864965473843:android:a3902faae6a5906b3cd546",
+        "android_client_info": {
+          "package_name": "y.FirebaseAuthTutorialStarterProjectialStarterProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864965473843-gcd69vo06qma79pv0u8m14qh9pbulsgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTtGC_H5zEd-xybT7uH6Qu5TbXC4Ix6lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864965473843-gcd69vo06qma79pv0u8m14qh9pbulsgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
