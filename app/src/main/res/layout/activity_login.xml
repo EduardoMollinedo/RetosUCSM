@@ -4,38 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context="com.example.eduardo.chatbot.MainActivity">
+    android:layout_height="match_parent">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorU"
         android:layout_weight=".50"
         android:gravity="center"
         android:orientation="vertical">
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:src="@drawable/logo">
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/logomain">
 
         </ImageView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="RETOS UCSM"
-            android:fontFamily="@font/fuente"
-            android:textSize="20dp"
-            android:id="@+id/tvResultado"
-            />
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:gravity="center"
+        android:background="@color/colorPrimario2"
         android:layout_weight=".50">
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +43,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="center"            android:textColor="@color/colorSecundario"
+
                 android:fontFamily="@font/fuente"
                 android:textSize="12dp"
                 android:padding="10dp"
@@ -75,6 +67,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:textColor="@color/colorSecundario"
+
                 android:fontFamily="@font/fuente"
                 android:textSize="12dp"
                 android:padding="10dp"

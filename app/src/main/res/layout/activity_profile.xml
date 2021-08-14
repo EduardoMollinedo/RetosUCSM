@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimario2"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include android:id="@+id/toolbar" layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/image"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/vista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:scrollingCache="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fuente"
+                            android:gravity="center"
+                            android:text="EDUARDO "
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="@android:color/white"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/tvApellido"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fuente"
+                            android:gravity="center"
+                            android:text="MOLLINEDO CHAVEZ"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="@android:color/white"
+                            android:textSize="12dp" />
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lyGrupo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btnCrearGrupo"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimario"
+                            android:fontFamily="@font/fuente"
+                            android:onClick="btnEntrarGrupo"
+                            android:text="Ingresar a un grupo"
+                            android:textColor="@android:color/white"
+                            android:textSize="12dp" />
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+
+
+                        <TextView
+                            android:id="@+id/tvCrearGrupo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fuente"
+                            android:gravity="center"
+                            android:onClick="btnCrearGrupo"
+                            android:text="CREAR UN GRUPO"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="@android:color/white"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btnSalir"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorRojo"
+                            android:fontFamily="@font/fuente"
+                            android:text="Cerrar Sesion"
+                            android:onClick="btnCerrarSesion"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
